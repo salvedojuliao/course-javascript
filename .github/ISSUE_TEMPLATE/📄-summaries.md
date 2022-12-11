@@ -1,8 +1,8 @@
 ---
 name: "\U0001F4C4 Summaries"
 about: 'Issues related to the classes summaries '
-title: ''
-labels: ''
+title: Summaries
+labels: Resumo
 assignees: ''
 
 ---
