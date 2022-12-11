@@ -14,8 +14,8 @@ Javascript:
 
 * To my code works and then the effects on webpage be executed, there has to be a JavaScritp Engine between them, it means between My code and the Effects.
     1) The JavaScript Engine is built-into the Browser and in chrome for example it is V8.
-    2) The V8 at first parse the code (analise ele), Compile to Machine Code (so that it can be faster to execute) then Execute Machine code. All of that  on a single thread (de uma vez só / num único fio)
+    2) The V8 at first parse the code (analize it), Compile to Machine Code (so that it can be faster to execute) then Execute Machine code. All of that  on a single thread (de uma vez só / num único fio)
 
 ## 6. Dynamic vs Weakly Typed Languages
-- Dynamic means that it is parsed and interpreted and compiled at runtime and that therefore it is able to do certain things that other programming languagers are not allowed to do.
+- Dynamic means that it is parsed and interpreted and compiled at runtime and that therefore it is able to do certain things that other programming languages are not allowed to do.
 - Weakly typed Programming Language: Data types are assumed automacically. In short, I don't have to define the type of data. So it can change!
