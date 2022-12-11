@@ -1,8 +1,8 @@
 ---
-name: "\U0001F4C4 Summaries"
+name: "\U0001F680 Summaries (CJRM)"
 about: 'Issues related to the classes summaries '
 title: Summaries
-labels: ''
+labels: CJRM
 assignees: ''
 
 ---
