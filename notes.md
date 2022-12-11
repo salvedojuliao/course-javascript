@@ -1,3 +1,5 @@
+TODO: Read the article about how the web works: https://academind.com/tutorials/how-the-web-works 
+
 # SECTION 1: Introduction
 
 ## 2. What is JavaScript?
@@ -129,3 +131,25 @@ Javascript:
 
 ## 13. Setting Up a Development Environment
     - TIP: use incognito tab to avoid distraction from crhome extensions 
+
+
+# HOW THE WEB WORKS - The Big Picture
+
+- DNS (Domain Name System) is responbsible for translating the human readbale name (for example, www.amazon.com) to machine readble IP addresses (for example, 192.0.02.44).
+
+- When I make a request for the page, this request is a package of data (includng URL, Methods, Status Code, Remote Addres, Referrer Policy). There are meta data as well.
+
+- Then I receive a response (a package of data too)
+
+* The tree languages
+    - HTML: Hypertext Markup Langauge (The website's structure)
+    - CSS: Cascading Style Sheets (Making it look good)
+    - Javascrpt: Adding Logic to a website
+
+* All this data transfer (HTML, CSS and JS) is standardized, just like how request and response should look like.That is all defined by the technology HTTP (Hypertext Transfer Protocol)
+
+    - HTTPS: Hypertext Transfer Protocol Secure (The same but in a encipted form). Modern websites use it.
+
+* There are other technologies involved with it, just like frameworks for the Backend and the Frontend. They help us not to write/code all the logic (the declarative code), it means I just need to say what I want and what and when to changes and the frameroks take over and does the rest.
+
+    - JSON: Javascript Object Notation - A Data Format (is used when there is only a request and not a response)
