@@ -153,3 +153,6 @@ Javascript:
 * There are other technologies involved with it, just like frameworks for the Backend and the Frontend. They help us not to write/code all the logic (the declarative code), it means I just need to say what I want and what and when to changes and the frameroks take over and does the rest.
 
     - JSON: Javascript Object Notation - A Data Format (is used when there is only a request and not a response)
+
+
+Obs: I created this line using Codespaces*
