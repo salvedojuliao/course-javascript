@@ -1,2 +1,1 @@
-- Resumir os resumos 
-- Usar bastante o github
+
