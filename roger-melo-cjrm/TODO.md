@@ -1,2 +1,1 @@
-TODO: Study the theory of the first class (Variables, Constants and Comments) and make exercises (MDN)
 TODO: Review academind (How JS works)
