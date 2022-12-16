@@ -3,6 +3,7 @@
 
 ⚠️ At first I am studying with Roger Melo and eventually taking informations from Maximilian Schwarzmüller's course, other tutor I like to study with.
 
-**Ps:** I used issues to help to note and practice JS
+---
+**PS:** _I used issues because by this way I can search for topics I need to review when I am coding!_ 😊
 
 
