@@ -21,7 +21,8 @@ let brazilianFoods = [];
 
 - Exiba a brazilianFoods no console.
 */
-brazilianFoods.push('Conxinha', 'null', 'Brigadeiro');
+// brazilianFoods.push('Conxinha', 'null', 'Brigadeiro'); // Errei o 'null'
+brazilianFoods.push('Conxinha', null, 'Brigadeiro');
 // console.log(brazilianFoods);
 
 
@@ -109,8 +110,9 @@ apenas as letras iniciais dos nomes do array "dogNames";
 - Exiba a "initials" no console.
 */
 dogNames.push('Nina');
-const initial = `${dogNames[0].slice(0, 1)}${dogNames[1].slice(0, 1)}${dogNames[2].slice(0, 1)}${dogNames[3].slice(0, 1)}`
-// console.log(initial);
+// const initials = `${dogNames[0].slice(0, 1)}${dogNames[1].slice(0, 1)}${dogNames[2].slice(0, 1)}${dogNames[3].slice(0, 1)}` \\ Errei
+// const initials = `${dogNames[0][0]}${dogNames[1][0]}${dogNames[2][0]}${dogNames[4][0]}`
+// console.log(initials);
 
 
 
@@ -160,5 +162,6 @@ já tem, mais 4;
 - Agora, o resultado exibido no console deve ser 729.
 */
 let oddNumbers = [3, 5, 7];
-oddNumbers[1] = oddNumbers[1] + 4;
+// oddNumbers[1] = oddNumbers[1] + 4;
+oddNumbers[1] += 4;
 console.log(oddNumbers[1]**3)
