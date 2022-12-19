@@ -12,8 +12,10 @@
 
   "Minhas 3 séries favoritas são: SÉRIE_01, SÉRIE_02 e SÉRIE_03."
 */
+const my3FavoritesTVShows = ['This is Us', 'Stranger Things', 'Wednesday'];
+const sentence = `Minhas 3 séries favoritas são: ${my3FavoritesTVShows.join(', ')}.`.replace(', W', ' e W');
 
-
+// console.log(sentence);
 
 /*
   02 - Comente o console.log() acima e:
@@ -22,7 +24,7 @@
     possui 3 itens.
 */
 
-
+// console.log(my3FavoritesTVShows.length === 3);
 
 /*
   03 - Comente o console.log() acima e:
@@ -34,7 +36,9 @@
   - Exiba no console o boolean que a "isRandomTVShowIncluded" recebeu.
 */
 
-const randomTVShow = 'Watchmen'
+// const randomTVShow = 'Watchmen'
+// const isRandomTVShowhowIncluded = my3FavoritesTVShows.includes(randomTVShow);
+// console.log(isRandomTVShowhowIncluded);
 
 /*
   04 - Comente o console.log() acima e:
@@ -46,7 +50,8 @@ const randomTVShow = 'Watchmen'
 
   "O tipo de dado que a const "isRandomTVShowIncluded" armazena é: TIPO_DE_DADO."
 */
-
+const typeSentence = `O tipo de dado que a const "isRandomTvShowIncluded" armazena é: ${typeof isRandomTVShowhowIncluded}`;
+// console.log(typeSentence);
 
 
 /*
@@ -63,7 +68,8 @@ const randomTVShow = 'Watchmen'
   caracteres? BOOLEAN."
 */
 
-
+const numberToCheck = 39;
+// console.log(`A string que a "typeSentence" armazena tem mais de ${numberToCheck} caracteres? ${String(typeSentence.length > numberToCheck).replace('t', 'T')}`)
 
 /*
   06 - Comente o console.log() acima e:
@@ -76,6 +82,7 @@ const randomTVShow = 'Watchmen'
 */
 
 const falsyValues = [0, "", false, '', ``, null, undefined, NaN]
+// console.log(`Todos os ${falsyValues.length} items do array "falsyValues" são falsy. Inclusive o ${String(falsyValues[2])}`)
 
 /*
   07 - Comente o console.log() acima e:
@@ -84,8 +91,12 @@ const falsyValues = [0, "", false, '', ``, null, undefined, NaN]
   - Armazene em uma constante "crazyConversion" a conversão da "crazyOperation"  
     em boolean.
   - Você sabe por que essa conversão resultou em true?
+  Sim, poque o null é entendido como zero pelo JS, e quando eu somo 1, resulta 1, e, o 1 é um valor entendido como 'true' pelo JS,
+  por isso quandor converto 1 para boolean, aparece a mesangem 'true', ou seja, o 1 é um valor truphy.
 */
-
+const crazyOperation = null + 1;
+const crazyConversion = Boolean(crazyOperation);
+// console.log(crazyConversion)
 
 
 /*
@@ -101,6 +112,9 @@ const falsyValues = [0, "", false, '', ``, null, undefined, NaN]
   é: BOOLEAN."
 */
 
+const ages = [31, 82, 61, 11];
+const agesSun = ages[0] + ages[ages.length - 1];
+// console.log(`A soma entre 0 1° e o 3º item de "ages" é menor ou igual a 92. Essa afirmação é: ${agesSun <= 39}`);
 
 
 /*
@@ -112,6 +126,9 @@ const falsyValues = [0, "", false, '', ``, null, undefined, NaN]
   - Exiba a "isNotAString" no console.
 */
 
+const randomTVShow = 'string'
+const isNotAString = typeof randomTVShow !== 'string';
+console.log(isNotAString);
 
 
 /*
@@ -122,4 +139,8 @@ const falsyValues = [0, "", false, '', ``, null, undefined, NaN]
   - Não utilize o método includes desta vez.
 */
 
+
 const evenNumbers = [0, 2, 4, 6, 8, 10]
+// console.log(evenNumbers.indexOf(8) !== -1);
+// É aqui que entra a aplicação dessa parte que envolve o -1.
+
