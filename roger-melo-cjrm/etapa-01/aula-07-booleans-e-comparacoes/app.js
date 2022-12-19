@@ -11,7 +11,7 @@ const arrayIncludes = names.includes('roger');
 
 // Operadores de comparação
 const age = 31;
-const name = 'roger'
+const name = 'roger';
 
 // console.log(age == 31) // retorna true
 // console.log(age == 35) // retorna false
